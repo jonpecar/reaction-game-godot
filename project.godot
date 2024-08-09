@@ -11,15 +11,25 @@ config_version=5
 [application]
 
 config/name="Multiplayer Reaction Game"
-run/main_scene="res://basic_game.tscn"
-config/features=PackedStringArray("4.2", "GL Compatibility")
+run/main_scene="res://game_scenes/start_menu.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+LevelManager="*res://level_manager.gd"
+Stats="*res://stats.gd"
 
 [debug]
 
 gdscript/warnings/untyped_declaration=2
 
+[global_group]
+
+button=""
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
