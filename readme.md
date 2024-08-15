@@ -1,3 +1,10 @@
+# Links:
+
+[https://github.com/godotengine/godot-builds/releases/download/4.3-rc3/Godot_v4.3-rc3_win64.exe.zip](Godot Engine (Windows))
+[https://github.com/godotengine/godot-builds/releases/download/4.3-rc3/Godot_v4.3-rc3_macos.universal.zip](Godot Engine (Mac))
+
+
+
 # Sound Attribution
 
 ## Success ding:
